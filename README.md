@@ -9,7 +9,7 @@ Las consignas están en el archivo `Funciones.py`, donde deberás implementar ca
 
 - `Funciones.py`: contiene las 20 funciones a implementar.
 - `test_funciones.py`: contiene los tests que verifican el funcionamiento de cada función.
-- `GEjercicios_Funciones.pdf`: documento con todas las consignas y ejemplos de uso.
+- `Ejercicios_Funciones.pdf`: documento con todas las consignas y ejemplos de uso.
 
 ---
 
