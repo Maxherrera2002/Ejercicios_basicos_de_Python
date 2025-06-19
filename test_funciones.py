@@ -2,9 +2,31 @@
 Este archivo contiene pruebas (tests) para las funciones definidas en ejercicios_funciones_resueltos.py.
 Cada función será probada con 3 casos distintos.
 """
+import sys
+import os
 
-from Funciones import *
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))   
 
+from Ejercicios.Ejercicio_1 import sumar
+from Ejercicios.Ejercicio_2 import mayor
+from Ejercicios.Ejercicio_3 import es_par
+from Ejercicios.Ejercicio_4 import area_triangulo
+from Ejercicios.Ejercicio_5 import contar_letras
+from Ejercicios.Ejercicio_6 import revertir
+from Ejercicios.Ejercicio_7 import a_fahrenheit
+from Ejercicios.Ejercicio_8 import saludar
+from Ejercicios.Ejercicio_9 import tabla_multiplicar
+from Ejercicios.Ejercicio_10 import factorial
+from Ejercicios.Ejercicio_11 import es_primo
+from Ejercicios.Ejercicio_12 import contar_vocales
+from Ejercicios.Ejercicio_13 import es_palindromo
+from Ejercicios.Ejercicio_14 import maximo
+from Ejercicios.Ejercicio_15 import es_perfecto
+from Ejercicios.Ejercicio_16 import fibonacci
+from Ejercicios.Ejercicio_17 import contar_palabras
+from Ejercicios.Ejercicio_18 import sin_duplicados
+from Ejercicios.Ejercicio_19 import generar_contrasena
+from Ejercicios.Ejercicio_20 import calculadora
 def test(funcion, esperado, *args):
     resultado = funcion(*args)
     correcto = resultado == esperado
